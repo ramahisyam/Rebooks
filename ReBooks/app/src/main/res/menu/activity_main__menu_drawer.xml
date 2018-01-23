@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/genre_buku">
+        <menu>
+            <item
+                android:id="@+id/nav_romantika"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Romantika" />
+            <item
+                android:id="@+id/nav_humor"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Humor" />
+            <item
+                android:id="@+id/nav_komik"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Komik" />
+            <item
+                android:id="@+id/nav_horror"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Horror" />
+            <item
+                android:id="@+id/nav_sejarah"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Sejarah" />
+            <item
+                android:id="@+id/nav_sci_fi"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Sci-fi" />
+            <item
+                android:id="@+id/nav_dongeng"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="dongeng" />
+            <item
+                android:id="@+id/nav_misteri"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="misteri" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+    </group>
+
+
+
+</menu>
